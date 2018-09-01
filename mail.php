@@ -1,6 +1,6 @@
 <?php
 $recepient = "dmitri.dwp@gmail.com";
-$sitename = "";
+$sitename = "qwertem.github.io";
 
 $text = trim($_POST["text"]);
 $mail = trim($_POST["mail"]);
