@@ -10,6 +10,16 @@ p {
 }
 
 
+.fagt p {
+	line-height: 0.9em;
+}
+
+
+.fakt p {
+	line-height: 0.9em;
+}
+
+
 .etap img {
 	width: 100%;
 	height: auto;
@@ -47,7 +57,7 @@ p {
 
 .menu {
 	margin-top: 68px;
-	font-size: 17px;
+	font-size: 23px;
 }
 
 
