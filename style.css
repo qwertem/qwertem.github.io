@@ -10,16 +10,6 @@ p {
 }
 
 
-.fagt p {
-	line-height: 0.9em;
-}
-
-
-.fakt p {
-	line-height: 0.9em;
-}
-
-
 .etap img {
 	width: 100%;
 	height: auto;
@@ -150,7 +140,7 @@ p {
 
 .fagt {
 	margin-top: 15px;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 	font-size: 29px;
 	font-weight: bold;
 }
@@ -344,10 +334,6 @@ hr {
 		text-align: center;
 	}
 
-	.menu {
-		font-size: 10px;
-		margin-right: 10px;
-	}
 }
 
 
