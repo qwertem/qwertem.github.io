@@ -1,0 +1,474 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+p {
+	line-height: 1.15em;
+}
+
+
+.etap img {
+	width: 100%;
+	height: auto;
+}
+
+
+.approch {
+	width: 100%;
+	height: auto;
+}
+
+
+.condan {
+	background: #f0f2f4;
+	heidth: 40px;
+	color: #424242;
+}
+
+
+.condan i {
+	margin-right: 8px;
+}
+
+
+.head {
+	height: 140px;
+}
+
+
+.logo {
+	margin-top: 42px;
+	height: 80px;
+}
+
+
+.menu {
+	margin-top: 68px;
+	font-size: 17px;
+}
+
+
+.menu li {
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+
+.lotemi {
+	line-height: 1.5em;
+	font-size: 15px;
+	font-weight: normal;
+	color: #424242;
+}
+
+
+.lote {
+	line-height: 1.5em;
+	margin-top: 42px;
+	margin-bottom: -12px;
+	font-size: 37px;
+	font-weight: bold;
+	color: #424242;
+}
+
+
+.btn {
+	background: #de2b24;
+	color: #fff;
+	margin-top: 65px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 0px;
+}
+
+
+.ekran {
+	text-align: center;
+	color: #fff;
+	background: url(i/los.png) no-repeat center top / cover;
+	height: 600px;
+}
+
+
+.ekgt {
+	margin-bottom: -12px;
+	margin-top: 170px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+.eknt {
+	font-size: 47px;
+	font-weight: normal;
+}
+
+
+.sd {
+	background: #f8c638;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+.about {
+	color: #424242;
+	text-align: center;
+}
+
+
+.abgt {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: -1px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+
+.abkt {
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+
+.fagt {
+	margin-top: 15px;
+	margin-bottom: -10px;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+
+.fakt {
+	font-size: 18px;
+	font-weight: normal;
+	color: #5c5c5c;
+}
+
+
+hr {
+	border-top: 5px solid #424242;
+	width: 6%;
+	margin-bottom: 46px;
+}
+
+
+.etap {
+	color: #424242;
+}
+
+
+.etap_gt {
+	margin-bottom: -0.1px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+.etap_kt {
+	font-size: 16px;
+}
+
+
+.etap_gt22 {
+	margin-top: 42.63158%;
+	margin-bottom: -0.1px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+.right {
+	text-align: right;
+}
+
+
+.left {
+	text-align: left;
+}
+
+
+.pabo {
+	padding-top: 6.5%;
+}
+
+
+#approch {
+	background: #de2b24;
+	margin-top: 130px;
+	height: 900px;
+}
+
+
+.rozo {
+	text-align: center;
+	color: #ffe3e2;
+	background: #f35e59;
+	height: 285px;
+}
+
+
+.bel {
+	color: #fff;
+}
+
+
+.bel hr {
+	border-top: 5px solid #fff;
+}
+
+
+#approch .col {
+	padding: 0;
+}
+
+
+.fa-atlas {
+	font-size: 100px;
+	color: #de5940;
+}
+
+
+.fa-thumbs-up {
+	font-size: 100px;
+	color: #688fca;
+}
+
+
+.fad {
+		padding-top:100px;
+		height: 848px;
+		background: #1287bf;
+	}
+
+
+	.fa-arrow-circle-down {
+		margin-top: 17px;
+		font-size: 56pt;
+		margin-bottom: 22px;
+	}
+
+
+	.tidle {
+		color: #fff;
+		text-align: center;
+	}
+
+	
+	.tidlete {
+		background: url(i/shape.png);
+		width: 683px;
+		height: 479px;
+		margin: 0 auto;
+		padding-top: 70px;
+	}
+
+
+	.ghjk {
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+
+	.formfad {
+		margin-top: 40px;
+	}
+
+
+	.formain {
+		border-radius: 4px;
+		color: #9f9d9d;
+		padding-left: 20px;
+		font-size: 13pt;
+		font-weight: normal;
+		margin-left: 119px;
+		width: 443px;
+		height: 50px;
+		border: 1px solid #d8d8d8; 
+	}
+
+
+	.formfad button {
+		margin-left: 260px;
+		margin-right: 260px;
+		border-radius: 4px;
+		border:none;
+		background: #de2b24;
+		height: 46px; 
+		width: 161px;
+		font-size: 15pt;
+		font-weight: bold;
+		color: #fff;
+		margin-top: 36px;
+		text-align: center;
+	}
+	
+
+	.tidltext {
+		color: #a1a1a1;
+		font-size: 12.5pt;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+	.container {
+		width: 100%;
+	}
+
+	.condan {
+		text-align: center;
+	}
+
+	.menu {
+		font-size: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+@media (max-width: 991px){
+
+	#approch {
+		height: 700px;
+	}
+
+	.dogo img {
+		width: 142px;
+		height: 142px;
+	}
+
+	.etap_gt22 {
+		font-size: 9px;
+	}
+
+	.etap_kt22 {
+		font-size: 5px;
+	}
+
+	.rozo {
+		height: 142px;
+	}
+	
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+	
+	.container {
+		width: 100%;
+	}
+
+	.menu li {
+		font-size: 10px;
+		margin-right: 20px;
+	}
+
+	.but {
+		display: none;
+	}
+
+	.fakt {
+		font-size: 9px;
+	}
+
+	.etap_gt {
+		font-size: 11px;
+
+	}
+
+	.etap_kt {
+		font-size: 8px;
+		font-weight: lighter;
+	}
+
+	
+	.pabo {
+		padding-top: 4.5%;
+	}
+
+	.ekgt {
+		font-size: 38px;
+	}
+
+	.eknt {
+		font-size: 25px;
+	}
+
+	p {
+		line-height: 2em;
+	}
+
+	.sd {
+		font-size: 14px;
+	}
+
+
+	.abgt {
+		font-size: 19px;
+	}
+
+	.abkt {
+		font-size: 10px;
+	}
+
+	.fa-thumbs-up {
+		font-size: 50px;
+	}
+
+	.fa-atlas {
+		font-size: 50px;
+	}
+
+	.fagt {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+
+	.about p {
+		line-height: 1.3em;
+	}
+
+	hr {
+		border-top: 2.5px solid #424242;
+	}
+
+	.etap p {
+		line-height: 1.3em;
+	}
+
+	.dogo p {
+		line-height: 1.3em;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
