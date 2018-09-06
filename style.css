@@ -1,3 +1,8 @@
+* {
+	border: none;
+}
+
+
 ul, li {
 	display: block;
 	padding: 0;
@@ -256,66 +261,72 @@ hr {
 	}
 
 
-	.tidle {
-		color: #fff;
-		text-align: center;
-	}
-
-	
-	.tidlete {
-		background: url(i/shape.png);
-		width: 683px;
-		height: 479px;
-		margin: 0 auto;
-		padding-top: 70px;
+	.tgba {
+		margin-top: 10px;
 	}
 
 
-	.ghjk {
-		margin-bottom: 8px;
-		margin-top: 8px;
+	.tkba {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 
-	.formfad {
-		margin-top: 40px;
+	.popup-top-corner {
+		border-radius: 5px;
+	    width: 100%;
+	    text-align: center;
 	}
 
 
-	.formain {
-		border-radius: 4px;
-		color: #9f9d9d;
-		padding-left: 20px;
-		font-size: 13pt;
-		font-weight: normal;
-		margin-left: 119px;
-		width: 443px;
-		height: 50px;
-		border: 1px solid #d8d8d8; 
+	.fa-arrow-circle-down {
+		margin-left:auto;
+		margin-right:auto;
+		width:auto;
 	}
 
 
-	.formfad button {
-		margin-left: 260px;
-		margin-right: 260px;
-		border-radius: 4px;
-		border:none;
-		background: #de2b24;
-		height: 46px; 
-		width: 161px;
-		font-size: 15pt;
-		font-weight: bold;
-		color: #fff;
-		margin-top: 36px;
-		text-align: center;
-	}
-	
-
-	.tidltext {
+	.popup-top-corner p {
 		color: #a1a1a1;
-		font-size: 12.5pt;
-		text-align: center;
+		font-size: 16px;
+		margin-top: 2%;
+		margin-bottom: 7%;
 	}
+
+
+	.natema input {
+		border-radius: 8px;
+    	color: #9f9d9d;
+    	padding-left: 15%;
+    	font-size: 13pt;
+    	font-weight: normal;
+    	height: 50px;
+    	border: 1px solid #d8d8d8;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 10px;
+	}
+
+
+	.nateem {
+		padding: 7px;
+		font-weight: bold;
+		background: #de2b24;
+		color: #fff;
+	}
+
+
+	form {
+		margin-bottom: 25px;
+	}
+
+
+	button {
+		border-radius: 4px;
+	}
+
+
+
 
 
 
