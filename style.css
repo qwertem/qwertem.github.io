@@ -52,22 +52,8 @@
 	}
 
 
-	.logo {
-		margin-top: 42px;
-		height: 80px;
-	}
-
-
-	.menu {
-		color: #424242;
-		margin-top: 68px;
-		font-size: 23px;
-	}
-
-
-	.menu li {
-		font-weight: bold;
-		margin-right: 40px;
+	.lode {
+		margin-right: 90px;
 	}
 
 
@@ -81,21 +67,40 @@
 
 	.lote {
 		line-height: 1.5em;
-		margin-top: 42px;
 		margin-bottom: -12px;
-		font-size: 37px;
+		font-size: 35px;
 		font-weight: bold;
 		color: #424242;
 	}
 
 
 	.btn {
+		text-align: center;
 		background: #de2b24;
 		color: #fff;
 		margin-top: 65px;
 		font-size: 15px;
 		font-weight: bold;
 		margin-right: 0px;
+		border: none;
+	}
+
+
+	.navbar-nav:hover a {
+		color: #424242;
+	}
+
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+
+	.nav-link {
+		font-weight: bold;
+		margin-right: 10px;
+		font-size: 19px;
+		color: #424242;
 	}
 
 
@@ -225,7 +230,6 @@
 		text-align: center;
 		color: #ffe3e2;
 		background: #f35e59;
-		height: 285px;
 	}
 
 
@@ -386,6 +390,28 @@
 
 @media (max-width: 991px){
 
+
+	.condan {
+		text-align: center;
+	}
+
+
+	.fa-arrow-circle-down {
+		font-size: 75px;
+	}
+
+
+	.etap_gt {
+		font-size: 13px;
+
+	}
+
+	.etap_kt {
+		font-size: 9px;
+		font-weight: lighter;
+	}
+
+
 	#approch {
 		height: 700px;
 	}
@@ -403,18 +429,21 @@
 		font-size: 5px;
 	}
 
-	.rozo {
-		height: 142px;
+
+	.menu li {
+		font-size: 19px;
+		margin-right: 20px;
 	}
-	
-
-
-
-
 }
 
 
 @media (max-width: 768px) {
+
+
+	.fa-arrow-circle-down {
+		font-size: 60px;
+	}
+
 	
 	.container {
 		width: 100%;
@@ -431,16 +460,6 @@
 
 	.fakt {
 		font-size: 9px;
-	}
-
-	.etap_gt {
-		font-size: 11px;
-
-	}
-
-	.etap_kt {
-		font-size: 8px;
-		font-weight: lighter;
 	}
 
 	
@@ -507,8 +526,12 @@
 }
 
 
-
 @media (max-width: 576px) {
+
+
+	.fa-arrow-circle-down {
+		font-size: 50px;
+	}
 
 
 	.right {
@@ -521,25 +544,8 @@
 	}
 
 
-
-	.condan {
-		text-align: center;
-	}
-
-
 	.zxcghj {
 		display: none;
-	}
-
-
-	.lote {
-		font-size: 25px;
-		margin-top: 49px;
-	}
-
-
-	.lotemi {
-		font-size: 15px;
 	}
 
 
@@ -550,18 +556,15 @@
 
 
 @media (max-width: 517px) {
-	.lote {
-		font-size: 25px;
+
+
+	.lode {
+		margin-right: 0px;
 	}
 
 
 	.ekgt {
 		line-height: 1.4em;
-	}
-
-
-	.lotemi {
-		font-size: 14px;
 	}
 
 
@@ -572,19 +575,12 @@
 }
 
 
+
+
+
 @media (max-width: 421px){
 	.plgsfp {
-		margin-left: 12%;
-	}
-
-
-	.lote {
-		font-size: 20px;
-		line-height: 1.7em;
-	}
-
-	.lotremi {
-		font-size: 7px;
+		margin-left: 9%;
 	}
 
 

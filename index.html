@@ -2,9 +2,11 @@
 <html lang="ru">
   <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="content-type" content="text/html;">
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -32,35 +34,38 @@
 
 
     <section>
-      <div class="head">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <div class="row justify-content-center">
-
-            <div class="col-2 col-md-1 col-lg-1 col-1">
-              <img src="i/logo.png" alt="logo" class="logo">
-            </div>
-
-            <div class="col-2 col-md-2 col-lg-2">
+          <div class="navbar-breand d-flex justify-content-center">
+            <img src="i/logo.png" class="mw-100" width="80px" height="80px">
+            <div class="lode">
               <p class="lote">Koxiv</p>
               <p class="lotemi">Marketing</p>
             </div>
-
-            <div class="col-8 col-md-6 col-lg-7">
-              <ul class="menu d-flex">
-                <li>О нас</li>
-                <li>Детали работы</li>
-                <li>Договор</li>
-              </ul>
-            </div>
-
-
-            <div class="col-md-3 col-lg-2 but col-0">
-              <button class="btn">Оставить заявку</button>
-            </div>
-
           </div>
-        </div>
-      </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-contros="navbarSupportedContent" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-align-justify"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Детали работы</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Договор</a>
+              </li>
+            </ul>
+            <form action="#" method="post" class="form-inline my-2 my-lg-0 justify-content-center">
+              <button class="btn btn-outline-success my-2 my-sm-0">
+                Отправить заявку
+              </button>
+            </form>
+          </div>
+        </div>  
+      </nav>
     </section>
 
 
@@ -262,8 +267,8 @@
             <div class="row bnmmnb">
 
             <div class="col rozo">
-              <p class="etap_gt22 mw-100">Составление договора</p>
-              <p class="etap_kt22 mw-100">Потребуется только выход в интернет</p>
+              <p class="etap_gt22">Составление договора</p>
+              <p class="etap_kt22">Потребуется только выход в интернет</p>
             </div>
 
             <div class="col iman">
@@ -271,8 +276,8 @@
             </div>
 
             <div class="col rozo">
-              <p class="etap_gt22 mw-100">Подписание договора</p>
-              <p class="etap_kt22 mw-100">Необходима электронная подпись</p>
+              <p class="etap_gt22">Подписание договора</p>
+              <p class="etap_kt22">Необходима электронная подпись</p>
             </div>
 
             <div class="col iman">
@@ -286,8 +291,8 @@
               </div>
 
               <div class="col rozo">
-                <p class="etap_gt22 mw-100">Прописание цели</p>
-                <p class="etap_kt22 mw-100">Сколько клиентов приведем</p>
+                <p class="etap_gt22">Прописание цели</p>
+                <p class="etap_kt22">Сколько клиентов приведем</p>
               </div>
 
               <div class="col iman">
@@ -295,8 +300,8 @@
               </div>
 
               <div class="col rozo">
-                <p class="etap_gt22 mw-100">Отправка</p>
-                <p class="etap_kt22 mw-100">Отправим по электронной почте</p>
+                <p class="etap_gt22">Отправка</p>
+                <p class="etap_kt22">Отправим по электронной почте</p>
               </div>
 
             </div>
@@ -331,10 +336,10 @@
             </div>
             <div class="row justify-content-center">
             <div class="col-md-7">
-              <form>
-                <div class="natema"><input type="text" name="name" value="" placeholder="Как к вам обращаться?"><br/></div>
-                <div class="natema"><input type="tel" name="tel" value="" placeholder="Телефон"><br/></div>
-                <div class="natema"><input type="email" name="email" value="" placeholder="E-mail"></div>
+              <form id="application" action=" application.php" method="POST" name=" application">
+                <div class="natema"><input name="name" id="applicationName" maxlength="20" placeholder="Как к вам обращаться?" required/><br/></div>
+                <div class="natema"><input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/><br/></div>
+                <div class="natema"><input  name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Ваш E-mail" required/></div>
                 <button class="nateem" type="submit">ОТПРАВИТЬ</button>
               </form>
             </div>
