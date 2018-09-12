@@ -17,6 +17,17 @@ html {
 }
 
 
+.qazxcdew {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.colore_marginleft {
+	margin-left: -40.1px;
+}
+
+
 .colore9a904 {
 	background: #e9a904;
 	color: #1e2327;
@@ -67,6 +78,80 @@ hr {
 .co1e {
 	color: #1e2327;
 }
+
+
+.he220 {
+	height: 220px;
+}
+
+
+.he410 {
+	height: 410px;
+}
+
+
+.he380 {
+	height: 380px;
+}
+
+
+.he427 {
+	height: 427px;
+}
+
+
+.mw-100 {
+	max-width: 100%;
+}
+
+
+.mw {
+	width: 100%;
+}
+
+
+.bo35 {
+	margin-bottom: 35px;
+}
+
+
+.head__qwre {
+	color: #eaa904;
+	font-size: 10px;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+
+.njxrf {
+	color: #5c646b;
+}
+
+
+.to40 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.price button {
+	background: none;
+	border: 3px solid #737c85;
+	color: #737c85;
+	padding: 10px 25px;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+
+a {
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+
 
 
 
