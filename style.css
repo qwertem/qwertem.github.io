@@ -264,7 +264,69 @@ form {
 
 
 
-q
+@media (max-width: 768px){
+
+
+.colore_marginleft {
+	margin-left: -2.5vw;
+}
+
+
+.colore9a904 {
+	padding-left: 2.5vw;
+}
+
+
+.iau__h2 {
+	font-size: 2vw;
+}
+
+
+.iau__text {
+	font-size: 1.1vw;
+}
+
+
+.head__qwre {
+	font-size: 1.1vw;
+}
+
+
+.price button {
+	font-size: 1.1vw;
+}
+
+
+.mywork_text {
+	font-size: 1.2vw;
+}
+
+
+.mywork button {
+	font-size: 1.1vw;
+}
+
+
+.soc i {
+	font-size: 1.8vw;
+}
+
+
+.fa-instagram {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+
+.forma {
+	margin-right: 1.2vw;
+}
+
+
+form {
+	margin-top: 0;
+}
+}
 
 
 
