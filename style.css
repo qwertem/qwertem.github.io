@@ -3,6 +3,11 @@ html {
 }
 
 
+img {
+	height: auto;
+}
+
+
 .color1e2327 {
 	background: #1e2327;
 	color: #ffffff;
@@ -15,9 +20,10 @@ html {
 .color1e {
 	background: #1e2327;
 	color: #ffffff;
-	height: 30vh;
+	height: 10vh;
 	display: table-cell;
 	vertical-align: middle;
+	padding-top: 2vh;
 }
 
 
@@ -40,7 +46,7 @@ footer .row {
 
 
 .colore_marginleft {
-	margin-left: -40.1px;
+	margin-left: -2.085vw;
 }
 
 
@@ -48,7 +54,7 @@ footer .row {
 	background: #e9a904;
 	color: #1e2327;
 	height: 100vh;
-	padding-left: 40px;
+	padding-left: 2.08334vw;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -66,11 +72,10 @@ footer .row {
 
 .iau__h2 {
 	color: #fff;
-	font-size: 30px;
+	font-size: 1.5625vw;
 	line-height: 32px;
 	font-weight: 300;
 	margin-bottom: 67px; 
-
 }
 
 
@@ -85,7 +90,7 @@ hr {
 
 .iau__text {
 	color: #737c85;
-	font-size: 12px;
+	font-size: 0.625vw;
 	line-height: 24px;
 	font-weight: 400;
 }
@@ -148,7 +153,7 @@ hr {
 
 .head__qwre {
 	color: #eaa904;
-	font-size: 12px;
+	font-size: 0.625vw;
 	line-height: 24px;
 	font-weight: 300;
 }
@@ -170,26 +175,132 @@ hr {
 	border: 3px solid #737c85;
 	color: #737c85;
 	padding: 10px 25px;
-	font-size: 12px;
+	font-size: 0.625vw;
 	line-height: 24px;
 	font-weight: 400;
 }
 
 
 a {
-	position: absolute;
 	text-align: center;
-	font-size: 12px;
 	color: #fff;
 }
 
 
 .mywork_text {
-	color: #939ba2;
-	font-size: 15px;
+	color: #737c85;
+	font-size: 0.78125vw;
 	line-height: 32px;
-	font-weight: 300;
+	font-weight: 500;
+	margin-bottom: 5px;
 }
+
+
+.mywork button {
+	background: none;
+	border: 1.7px solid #737c85;
+	color: #737c85;
+	padding: 5px 14px;
+	font-size: 0.625vw;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+
+.soc i {
+	color: #737c85;
+	font-size: 1.3vw;
+	line-height: 32px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+
+.fa-instagram {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+
+.forma {
+	margin-right: 0.78125vw;
+	background: none;
+	color: #737c85;
+	border: 2px solid #737c85;
+	padding: 5px 14px;
+	border-radius: 1px;
+}
+
+
+.forma_buton {
+	background: #737c85;
+	color: #1e2327;
+	border: 2px solid #737c85;
+	padding: 5px 14px;
+	border-radius: 2px;
+}
+
+
+form {
+	margin-top: 1.5vh;
+}
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+q
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
