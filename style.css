@@ -3,11 +3,6 @@ html {
 }
 
 
-img {
-	height: auto;
-}
-
-
 .color1e2327 {
 	background: #1e2327;
 	color: #ffffff;
@@ -27,10 +22,6 @@ img {
 }
 
 
-.row {
-	display: table;
-}
-
 
 footer .row {
 	display: -ms-flexbox;
@@ -46,7 +37,7 @@ footer .row {
 
 
 .colore_marginleft {
-	margin-left: -2.085vw;
+	margin-left: -40.1px;
 }
 
 
@@ -54,7 +45,7 @@ footer .row {
 	background: #e9a904;
 	color: #1e2327;
 	height: 100vh;
-	padding-left: 2.08334vw;
+	padding-left: 40px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -72,7 +63,7 @@ footer .row {
 
 .iau__h2 {
 	color: #fff;
-	font-size: 1.5625vw;
+	font-size: 30px;
 	line-height: 32px;
 	font-weight: 300;
 	margin-bottom: 67px; 
@@ -80,7 +71,6 @@ footer .row {
 
 
 hr {
-	margin-top: 60px;
 	margin-bottom: 60px;
 	width: 7%;
 	height: 1px;
@@ -90,7 +80,7 @@ hr {
 
 .iau__text {
 	color: #737c85;
-	font-size: 0.625vw;
+	font-size: 12px;
 	line-height: 24px;
 	font-weight: 400;
 }
@@ -153,7 +143,7 @@ hr {
 
 .head__qwre {
 	color: #eaa904;
-	font-size: 0.625vw;
+	font-size: 12px;
 	line-height: 24px;
 	font-weight: 300;
 }
@@ -175,7 +165,7 @@ hr {
 	border: 3px solid #737c85;
 	color: #737c85;
 	padding: 10px 25px;
-	font-size: 0.625vw;
+	font-size: 12px;
 	line-height: 24px;
 	font-weight: 400;
 }
@@ -189,7 +179,7 @@ a {
 
 .mywork_text {
 	color: #737c85;
-	font-size: 0.78125vw;
+	font-size: 15px;
 	line-height: 32px;
 	font-weight: 500;
 	margin-bottom: 5px;
@@ -201,7 +191,7 @@ a {
 	border: 1.7px solid #737c85;
 	color: #737c85;
 	padding: 5px 14px;
-	font-size: 0.625vw;
+	font-size: 12px;
 	line-height: 24px;
 	font-weight: 400;
 }
@@ -209,7 +199,7 @@ a {
 
 .soc i {
 	color: #737c85;
-	font-size: 1.3vw;
+	font-size: 25px;
 	line-height: 32px;
 	font-weight: 400;
 	margin-top: 20px;
@@ -223,7 +213,7 @@ a {
 
 
 .forma {
-	margin-right: 0.78125vw;
+	margin-right: 15px;
 	background: none;
 	color: #737c85;
 	border: 2px solid #737c85;
@@ -254,73 +244,248 @@ form {
 
 
 
---------------------------------------------------------------
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px){
+.colore_marginleft {
+	margin-left: -33.1px;
+}
+
+
+.colore9a904 {
+	height: 100vh;
+	padding-left: 33.1px;
+}
+
+
+.iau__h2 {
+	font-size: 24.8px;
+	margin-bottom: 55.4px; 
+}
+
+
+hr {
+	margin-top: 49.6px;
+	margin-bottom: 49.6px;
+}
+
+
+.iau__text {
+	font-size: 9.9px;
+}
+
+
+
+.he220 {
+	height: 181.9px;
+}
+
+
+.he410 {
+	height: 338.9px;
+}
+
+
+.he380 {
+	height: 314.1px;
+}
+
+
+.he427 {
+	height: 353.1px;
+}
+
+
+
+.bo35 {
+	margin-bottom: 28.9px;
+}
+
+
+.head__qwre {
+	font-size: 9.9px;
+}
+
+
+
+.to40 {
+	margin-top: 16.5px;
+	margin-bottom: 16.5px;
+}
+
+
+.price button {
+	padding: 8.3px 20.7px;
+	font-size: 9.9px;
+}
+
+
+
+.mywork_text {
+	font-size: 12.4px;
+	margin-bottom: 4.1px;
+}
+
+
+.mywork button {
+	padding: 4.1px 11.6px;
+	font-size: 9.9px;
+}
+
+
+.soc i {
+	font-size: 20.7px;
+	margin-top: 16.5px;
+}
+
+
+.fa-instagram {
+	margin-left: 14.9px;
+	margin-right: 14.9px;
+}
+
+
+.forma {
+	margin-right: 12.4px;
+	padding: 4.1px 11.6px;
+}
+
+
+
+form {
+	margin-top: 0;
+}
+}
 
 
 
 
 
 @media (max-width: 768px){
-
-
 .colore_marginleft {
-	margin-left: -2.5vw;
+	margin-left: -33.1px;
 }
 
 
 .colore9a904 {
-	padding-left: 2.5vw;
+	height: 100vh;
+	padding-left: 33.1px;
 }
 
 
 .iau__h2 {
-	font-size: 2vw;
+	font-size: 24.8px;
+	margin-bottom: 55.4px; 
+}
+
+
+hr {
+	margin-top: 49.6px;
+	margin-bottom: 49.6px;
 }
 
 
 .iau__text {
-	font-size: 1.1vw;
+	font-size: 9.9px;
+}
+
+
+
+.he220 {
+	height: 181.9px;
+}
+
+
+.he410 {
+	height: 338.9px;
+}
+
+
+.he380 {
+	height: 314.1px;
+}
+
+
+.he427 {
+	height: 353.1px;
+}
+
+
+
+.bo35 {
+	margin-bottom: 28.9px;
 }
 
 
 .head__qwre {
-	font-size: 1.1vw;
+	font-size: 9.9px;
+}
+
+
+
+.to40 {
+	margin-top: 16.5px;
+	margin-bottom: 16.5px;
 }
 
 
 .price button {
-	font-size: 1.1vw;
+	padding: 8.3px 20.7px;
+	font-size: 9.9px;
 }
 
 
+
 .mywork_text {
-	font-size: 1.2vw;
+	font-size: 12.4px;
+	margin-bottom: 4.1px;
 }
 
 
 .mywork button {
-	font-size: 1.1vw;
+	padding: 4.1px 11.6px;
+	font-size: 9.9px;
 }
 
 
 .soc i {
-	font-size: 1.8vw;
+	font-size: 20.7px;
+	margin-top: 16.5px;
 }
 
 
 .fa-instagram {
-	margin-left: 18px;
-	margin-right: 18px;
+	margin-left: 14.9px;
+	margin-right: 14.9px;
 }
 
 
 .forma {
-	margin-right: 1.2vw;
+	margin-right: 12.4px;
+	padding: 4.1px 11.6px;
 }
+
 
 
 form {
@@ -337,6 +502,109 @@ form {
 
 
 
+@media (max-width: 768px){
+.colore_marginleft {
+	margin-left: -25.6px;
+}
+
+
+.colore9a904 {
+	padding-left: 25.6px;
+}
+
+
+.iau__h2 {
+	font-size: 19.2px;
+	margin-bottom: 42.9px; 
+}
+
+
+hr {
+	margin-top: 38.4px;
+	margin-bottom: 38.4px;
+}
+
+
+.iau__text {
+	font-size: 7.7px;
+}
+
+
+
+.he220 {
+	height: 140.8px;
+}
+
+
+.he410 {
+	height:262.4px;
+}
+
+
+.he380 {
+	height: 243.1px;
+}
+
+
+.he427 {
+	height: 273.4px;
+}
+
+
+
+.bo35 {
+	margin-bottom: 22.4px;
+}
+
+
+.head__qwre {
+	font-size: 7.7px;
+}
+
+
+
+.to40 {
+	margin-top: 12.8px;
+	margin-bottom: 12.8px;
+}
+
+
+.price button {
+	padding: 6.4px 16.1px;
+	font-size: 7.7px;
+}
+
+
+
+.mywork_text {
+	font-size: 9.6px;
+	margin-bottom: 3.2px;
+}
+
+
+.mywork button {
+	padding: 3.2px 9.1px;
+	font-size: 7.7px;
+}
+
+
+.soc i {
+	font-size: 16.1px;
+	margin-top: 12.8px;
+}
+
+
+.fa-instagram {
+	margin-left: 9.1px;
+	margin-right: 9.1px;
+}
+
+
+.forma {
+	margin-right: 9.6px;
+	padding: 3.2px 9.1px;
+}
+}
 
 
 
@@ -346,14 +614,109 @@ form {
 
 
 
+@media (max-width: 544px){
+.colore_marginleft {
+	margin-left: -17.8px;
+}
+
+
+.colore9a904 {
+	padding-left: 17.8px;
+}
+
+
+.iau__h2 {
+	font-size: 13.6px;
+	margin-bottom: 30.4px; 
+}
+
+
+hr {
+	margin-top: 27.2px;
+	margin-bottom: 27.2px;
+}
+
+
+.iau__text {
+	font-size: 5.5px;
+}
 
 
 
+.he220 {
+	height: 99.7px;
+}
+
+
+.he410 {
+	height: 185.9px;
+}
+
+
+.he380 {
+	height: 172.2px;
+}
+
+
+.he427 {
+	height: 193.7px;
+}
 
 
 
+.bo35 {
+	margin-bottom: 15.9px;
+}
 
 
+.head__qwre {
+	font-size: 5.5px;
+}
+
+
+
+.to40 {
+	margin-top: 9.1px;
+	margin-bottom: 9.1px;
+}
+
+
+.price button {
+	padding: 6.4px 11.4px;
+	font-size: 5.5px;
+}
+
+
+
+.mywork_text {
+	font-size: 9.6px;
+	margin-bottom: 2.3px;
+}
+
+
+.mywork button {
+	padding: 2.3px 6.4px;
+	font-size: 5.5px;
+}
+
+
+.soc i {
+	font-size: 11.4px;
+	margin-top:6.4px;
+}
+
+
+.fa-instagram {
+	margin-left: 6.4px;
+	margin-right: 6.4px;
+}
+
+
+.forma {
+	margin-right: 9.6px;
+	padding: 2.3px 6.4px;
+}
+}
 
 
 
