@@ -4,6 +4,17 @@ html {
 
 
 .color1e2327 {
+	padding-top: 17vh;
+	background: #1e2327;
+	color: #ffffff;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.color1e23 {
+	padding-top: 17vh;
 	background: #1e2327;
 	color: #ffffff;
 	height: 100vh;
@@ -15,7 +26,7 @@ html {
 .color1e {
 	background: #1e2327;
 	color: #ffffff;
-	height: 10vh;
+	height: 15vh;
 	display: table-cell;
 	vertical-align: middle;
 	padding-top: 2vh;
@@ -42,6 +53,7 @@ footer .row {
 
 
 .colore9a904 {
+	padding-top: 17vh;
 	background: #e9a904;
 	color: #1e2327;
 	height: 100vh;
@@ -58,6 +70,11 @@ footer .row {
 
 .ma30 {
 	margin-left: 37%;
+}
+
+
+.matovh {
+	margin-top: 8vh;
 }
 
 
@@ -266,10 +283,59 @@ form {
 
 
 
+@media (max-width: 1200px){
+.color1e {
+	height: 20vh;
+	padding-top: 3vh;
+}
 
+
+.color1e input {
+	margin-bottom: 1vh;
+}
+
+
+.dino {
+	display: none;
+}
+}
 @media (max-width: 992px){
 .colore_marginleft {
-	margin-left: -33.1px;
+	margin-left: -6.2%;
+}
+
+
+.ma35 {
+	margin: 0;
+	padding: 0;
+}
+
+
+.matovh {
+	margin-top: 0vh;
+}
+
+
+hr {
+	display: none;
+}
+
+
+.colore_marginleft {
+	padding:0;
+}
+
+
+
+
+
+.jpg8 {
+    background: url(img/7.png);
+}
+
+
+.ma30 {
+	margin-left: 0;
 }
 
 
@@ -355,7 +421,6 @@ hr {
 
 
 .soc i {
-	font-size: 20.7px;
 	margin-top: 16.5px;
 }
 
@@ -383,9 +448,6 @@ form {
 
 
 @media (max-width: 768px){
-.colore_marginleft {
-	margin-left: -33.1px;
-}
 
 
 .colore9a904 {
@@ -470,7 +532,6 @@ hr {
 
 
 .soc i {
-	font-size: 20.7px;
 	margin-top: 16.5px;
 }
 
@@ -503,8 +564,8 @@ form {
 
 
 @media (max-width: 768px){
-.colore_marginleft {
-	margin-left: -25.6px;
+.color1e{
+	height: 30vh;
 }
 
 
@@ -589,7 +650,6 @@ hr {
 
 
 .soc i {
-	font-size: 16.1px;
 	margin-top: 12.8px;
 }
 
@@ -615,8 +675,23 @@ hr {
 
 
 @media (max-width: 544px){
-.colore_marginleft {
-	margin-left: -17.8px;
+.color1e input {
+	width: 100%;
+}
+
+
+.head .color1e2327 { 
+	padding-top: 10vh;
+}
+
+
+.head .color1e23 { 
+	padding-top: 25vh;
+}
+
+
+.color1e {
+	height: 40vh;
 }
 
 
@@ -626,7 +701,6 @@ hr {
 
 
 .iau__h2 {
-	font-size: 13.6px;
 	margin-bottom: 30.4px; 
 }
 
@@ -701,7 +775,6 @@ hr {
 
 
 .soc i {
-	font-size: 11.4px;
 	margin-top:6.4px;
 }
 
