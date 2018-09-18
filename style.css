@@ -150,6 +150,26 @@ hr {
 
 .modal-title {
 	color: #1e2327;
+	font-size: 25px;
+}
+
+
+.forma_modal {
+	margin-bottom: 10px;
+	align-content: center;
+	width: 50%;
+	border: 1px solid #737c85;
+	color: #737c85;
+}
+
+
+.modal_buton {
+	border: 2px solid #737c85;
+	color: #737c85;
+	padding: 2.5px 6.25px;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
 }
 
 
@@ -251,6 +271,9 @@ a {
 form {
 	margin-top: 1.5vh;
 }
+
+
+
 
 
 
@@ -448,6 +471,9 @@ form {
 
 
 @media (max-width: 768px){
+.iau__text {
+	line-height: 19px;
+}
 
 
 .colore9a904 {
@@ -564,6 +590,11 @@ form {
 
 
 @media (max-width: 768px){
+.iau__text {
+	line-height: 19px;
+}
+
+
 .color1e{
 	height: 30vh;
 }
@@ -675,6 +706,11 @@ hr {
 
 
 @media (max-width: 544px){
+.iau__text {
+	line-height: 15px;
+}
+
+
 .color1e input {
 	width: 100%;
 }
